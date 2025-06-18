@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: starwars-api
+
+swapi:
+  base-url: https://swapi.py4e.com/api
+  films-endpoint: /films/
+
+logging:
+  level:
+    com.dam.starwars: DEBUG
